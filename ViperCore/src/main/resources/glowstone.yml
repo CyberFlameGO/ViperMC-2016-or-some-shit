@@ -1,0 +1,14 @@
+
+Enabled: true
+Auto-Start: 30
+
+Messages:
+  NO-PERM: '&cYou do not have this permission'
+  Glowstone-Mountain:
+    COMMAND-USAGE:
+    - '&7&m--------&7[ &e&lGlow &7]&7&m--------'
+    - '&6/glow forcestart &8- &7Force start the spawn of the Glowstone Mountain'
+    - '&6/glow setloc &8- &7Set the location of the Glowstone Mountain'
+    - '&6/glow tp &8- &7Teleport you to the Glowstone Mountain'
+    SPAWN: '&eThe &6&lGlowstone Mountain &ehas regenerate at &c%COORDS% &e!'
+    FORCE-START: '&eThe &6&lGlowstone Mountain &ehas been &cforce start &eat &c%COORDS% &e!'

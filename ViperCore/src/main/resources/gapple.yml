@@ -1,0 +1,16 @@
+#GappleCooldown
+
+NoPermission message: "&eYou do not have the permission to do this!"
+#Edit the no permission message
+
+Cooldown message: "&eCurrently on cooldown."
+#Cooldown message when you try to eat a gapple
+
+Expiry message: "&eYou can now use a gapple again."
+#Expiry message when cooldown is over
+
+Eat message: "&eYou are now cooldown."
+#message when you eat a gapple
+
+Cooldown time: 5
+#Cooldown time in minutes

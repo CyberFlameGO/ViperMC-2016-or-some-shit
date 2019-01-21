@@ -1,0 +1,8 @@
+tag-on-damage: true
+tag-on-attack: true
+tag-second: 30
+glass-color: 5
+isKitmap : false
+disable-commands:
+  - "/f home"
+  - "/factions home"

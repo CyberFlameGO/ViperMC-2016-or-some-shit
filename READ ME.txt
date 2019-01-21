@@ -1,0 +1,10 @@
+------------------------------------------------------
+
+1. Minetweak.jar is the custom spigot
+2. Put Popura into the plugin folder
+3. The .JAR files are in the folders. To easily get them just search .JAR
+4. All files contain the src code
+5. Upon loading the plugins you will recieve an error w/ Popura. It's because you need to hook into the MySQL database.
+6. Enjoy!
+
+------------------------------------------------------

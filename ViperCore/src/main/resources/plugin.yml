@@ -1,0 +1,55 @@
+name: ViperCore
+version: 1.1.2-SNAPHOST
+author: libhalt/Fra1i
+softdepend: [Factions,WorldGuard,KoTH,ProtocolLib , Popura , GenericUtils , WorldEdit]
+main: net.libhalt.bukkit.kaede.HCFactionPlugin
+commands:
+  td:
+  stone:
+    description: Turns off stone pickup.
+    usage: /<command>
+  cobble:
+    description: Turns off cobble pickup.
+    usage: /<command>
+  mobdrops:
+    description: Turns off mob drops pickup.
+    usage: /<command>
+  gapplecooldown:
+  setendexit:
+  setendspawn:
+  glow:
+  lag:
+  sotw:
+  conquest:
+    aliases: [ca]
+  crowbar:
+  pvp:
+  ss:
+  logout:
+  subclaim:
+  stats:
+    aliases: [stat, ks]
+  modmode:
+    aliases: [staff, mod]
+  freeze:
+    aliases: [ss, screenshare]
+  staffchat:
+    aliases: [sc]
+  utils:
+  module:
+    description: zsrfgggfssfgfg
+  bottle:
+
+permissions:
+  disabled.bypass.enderchest:
+    default: false
+  command.ss.use:
+    default: op
+  command.crowbar.use:
+    default: op
+  live.admin:
+    default: op
+  live.send:
+    default: true
+  combatlogger.bypass:
+    default: false

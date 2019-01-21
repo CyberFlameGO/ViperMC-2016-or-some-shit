@@ -1,0 +1,26 @@
+Title: '&4&lSubclaim'
+FLeader-Bypass: true
+FMod-Bypass: true
+Messages:
+  Subclaim:
+    INFO:
+    - '&eExplain me what is a Subclaim please !'
+    - '&eThanks'
+    INVALID-SUBCLAIM:
+      NO-TERRITORY: '&cYou can only create Subclaim on claimed territory!'
+      ALREADY-SUBCLAIM: '&cThis chest is already a Subclaim!'
+      LEADER: '&cYou are not the Leader of your faction. &eSo, you can''t create a Leader Subclaim.'
+      OFFICIER: '&cYou are not a Officer of your faction. &eSo, you can''t create a Officer Subclaim.'
+    CREATED-SUBCLAIM:
+      LEADER: '&aYou succefully created a &eLeader Subclaim&a. &bOnly the Leader of your faction will be allowed to use this Chest:'
+      OFFICIER: '&aYou succefully created a &eOfficer Subclaim&a. &bOnly the Leader and Officers of your faction will be allowed to use this Chest:'
+      OWN: '&aYou succefully created a Subclaim&a. &bOnly the Leader of your faction and You will be allowed to use this Chest.'
+    DESTROY: '&cYou can''t destroy this Subclaim!'
+    OPEN: '&cYou can''t open this Subclaim!'
+    KEY-WORDS:
+    - 'Subclaim'
+    - 'Officer'
+    - 'Private'
+    - '[Subclaim]'
+    - '[Officer]'
+    - '[Private]'

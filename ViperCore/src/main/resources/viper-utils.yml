@@ -1,0 +1,6 @@
+#
+Broadcast:
+  enabled: true
+  message: '&eThe faction &c%FACTION% &ehas been muted for &c%REASON% &eby &c%PLAYER% &e!'
+mute-cmd: 'mute -s %PLAYER% %TIME% [FactionMute] %REASON%'
+XPBonus-Multiplier: 2

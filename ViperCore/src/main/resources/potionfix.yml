@@ -1,0 +1,7 @@
+# Potion Fix Configuration
+
+Strength-Fix-Enabled: true
+Strength-Power-Half-Hearts: 6
+Health-Fix-Enabled: true
+Health-Power-Half-Hearts: 6
+Regeneration-Fix-Enabled: true

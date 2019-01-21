@@ -1,0 +1,12 @@
+SHARP_ONE_SWORD:
+  material: "DIAMOND_SWORD"
+  amount: 1
+  damage: 0
+  enchantments:
+    DAMAGE_ALL: 1
+SHARP_TWO_SWORD:
+  material: "DIAMOND_SWORD"
+  amount: 1
+  damage: 0
+  enchantments:
+    DAMAGE_ALL: 2

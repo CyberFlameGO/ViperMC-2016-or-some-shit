@@ -1,0 +1,55 @@
+
+Mod-Mode:
+  Freeze:
+    message-delay: 5
+    execute-cmd-on-disconnect: false
+    cmds:
+    - 'banip %PLAYER% Refusing to SS'
+  Staff-LeaveJoin-Message: true
+  Toggle-ModMode-OnJoin: true
+  Block-InventoryMove:
+    Player-Inventory: true
+    Others-Inventory: true
+  Block-ItemDrop: true
+  Block-PickUp: true
+  Block-Place: true
+  Block-Break: true
+  Restore-Inventory: false
+  Disable-Pvp: true
+  Staff-Chat:
+    format: '&7[&cStaff&7] &b%PLAYER%&7: &b%MESSAGE%' 
+Messages:
+  VANISH: '&eYou have %STATUT% &dVanish &emode!'
+  MOD-MODE: '&eYou have %STATUT% &ethe &bModerator Mode&e!'
+  STAFF-CHAT: '&eYou have %STATUT% &ethe Staff Chat &e!'
+  STAFF-JOIN: '&7[&4&lStaff&7] &9%PLAYER% &ajoin &bthe server!'
+  STAFF-LEAVE: '&7[&4&lStaff&7] &9%PLAYER% &cleft &bthe server!'
+  FROZEN: '&c%PLAYER% &eis now frozen !'
+  UN-FROZEN: '&c%PLAYER% &eis no longer frozen !'
+  MOD-ITEMS:
+    COMPASS: '&bCompass'
+    AXE: '&b&lWorldEdit Axe'
+    VANISH: '&d&lVanish &8(%STATUT%&8)'
+    RANDOM-TP: '&6&lTeleport Random'
+    INSPECTION: '&e&lInventory View'
+    CHEST: '&b&lXray GUI'
+    MODE-NOT-TOGGLED: '&cYou are not in &9Moderator Mode&c, you can''t use this item!'
+    OPENING-INVENTORY: '&aOpening &e%TARGET%''s &ainventory...'
+    RANDOM-TELEPORTATION: '&eYou have been teleported to &6%PLAYER%&e!'
+    DISABLE-INTERACTION: '&cYou are not allowed to do that !'
+    GUI:
+      NOT-ONLINE: '&cThis player is not online !'
+      TELEPORTATION: '&eTeleportation to the player &a%PLAYER% &e!'
+    FREEZE:
+      ITEMS: '&2&lFreeze'
+      FREEZE: '&eThe player &6%PLAYER% &eis now frozen !'
+      UN-FREEZE: '&eThe player &6%PLAYER% &eis no longer frozen !'
+      MESSAGE:
+        1: '&4&lYou are frozen !'
+        2: ' '
+        3: '&bPlease join our teamspeak'
+        4: '&c� &c&n&lmy.teamspeak.com'
+        5: ' '
+  STATUT:
+    enabled: '&aenabled'
+    disabled: '&cdisabled'

@@ -1,0 +1,154 @@
+archer:
+  enabled: true
+  archer-damage-formula: "(damage * 1.5) + (distance/25.0)"
+  click:
+    SUGAR:
+      SPEED:
+        duration: 7
+        level: 4
+      cooldown: 30
+  passive:
+    DAMAGE_RESISTANCE:
+      duration: 6
+      level: 1
+    SPEED:
+      duration: 6
+      level: 3
+bard:
+  enabled: true
+  click:
+    BLAZE_POWDER:
+      INCREASE_DAMAGE:
+        duration: 5
+        level: 1
+      cooldown: 8
+      power: 40
+    BROWN_MUSHROOM:
+      WEAKNESS:
+        duration: 5
+        level: 1
+      cooldown: 8
+      power: 35
+    FEATHER:
+      JUMP:
+        duration: 7
+        level: 5
+      cooldown: 8
+      power: 25
+    GHAST_TEAR:
+      REGENERATION:
+        duration: 5
+        level: 1
+      cooldown: 8
+      power: 35
+    IRON_INGOT:
+      DAMAGE_RESISTANCE:
+        duration: 5
+        level: 3
+      cooldown: 8
+      power: 35
+    RAW_FISH:
+      WATER_BREATHING:
+        duration: 7
+        level: 6
+      cooldown: 8
+      power: 25
+    SLIME_BALL:
+      SLOW:
+        duration: 5
+        level: 1
+      cooldown: 8
+      power: 30
+    SPIDER_EYE:
+      WITHER:
+        duration: 5
+        level: 2
+      cooldown: 8
+      power: 30
+    SUGAR:
+      SPEED:
+        duration: 5
+        level: 3
+      cooldown: 8
+      power: 20
+  held:
+    FEATHER:
+      JUMP:
+        duration: 6
+        level: 2
+    GHAST_TEAR:
+      REGENERATION:
+        duration: 6
+        level: 1
+    GOLDEN_CARROT:
+      NIGHT_VISION:
+        duration: 6
+        level: 1
+    IRON_INGOT:
+      DAMAGE_RESISTANCE:
+        duration: 6
+        level: 1
+    MAGMA_CREAM:
+      FIRE_RESISTANCE:
+        duration: 6
+        level: 1
+    SUGAR:
+      SPEED:
+        duration: 6
+        level: 2
+  passive:
+    DAMAGE_RESISTANCE:
+      duration: 6
+      level: 1
+    REGENERATION:
+      duration: 6
+      level: 1
+    SPEED:
+      duration: 6
+      level: 2
+    WEAKNESS:
+      duration: 6
+      level: 4
+class-warmup: 10
+messages:
+  ARCHER_DAMAGE: "&aArcher({distance}) {pre-damage} -> {damage}"
+  ARCHER_NOT_FULL: "&cYour arrow does not tag enemy because it was not shot at full power."
+  BARD_DISABLED_SAFEZONE: "&bBarding in SafeZone is disabled."
+  BARD_POWEER: "&bBard Power: {power}"
+  CLASS_ACTIVE: "&bClass &b&l{class}&b is now active!"
+  CLASS_COOLDOWN: "&cYou can not do this for {duration}"
+  CLASS_NO_ENERGY: "&cYou do not have enough energy for this. You have {power} but requires {required_power}"
+  CLASS_REMOVED: "&cYour {class} kit was removed!"
+  CLASS_WARMUP: "&aClass &a&l{class}&a is warming up! (10 second)"
+miner:
+  enabled: true
+  passive:
+    FAST_DIGGING:
+      duration: 6
+      level: 2
+  passive-underground:
+    INVISIBILITY:
+      duration: 6
+      level: 2
+    NIGHT_VISION:
+      duration: 30
+      level: 1
+  underground-y: 20
+rouge:
+  enabled: true
+  backstab-damage: 6.0
+  click:
+    SUGAR:
+      SPEED:
+        duration: 8
+        level: 5
+      cooldown: 30
+  cooldown: 2000
+  degree: 0.6
+  passive:
+    JUMP:
+      duration: 6
+      level: 2
+    SPEED:
+      duration: 6
+      level: 2

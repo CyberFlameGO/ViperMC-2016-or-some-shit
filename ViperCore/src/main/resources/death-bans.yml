@@ -1,0 +1,13 @@
+death-ban: 20
+live-limit: 100
+death-ban-by-perm:
+  15: "deathban.15second"
+  10: "deathban.10second"
+message-live:
+ - "&cYou have %live% lives left"
+ - "Note: use /lives help for list of command"
+message-help-live:
+ - "&e/lives check <name> - check the live of player. works only for online player"
+ - "&e/lives set <name> <amount> - set the live of target by name. works only for online players"
+ - "&e/lives add <name> <amount> - adds live by name. only online players"
+ - "&e/lives send <name> <amount> - send lives by name. only online players"

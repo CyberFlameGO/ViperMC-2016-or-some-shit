@@ -1,0 +1,5 @@
+#See https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+remove-invalid-enchantments: false
+enchantment-limit:
+  DAMAGE_ALL: 2
+  PROTECTION_ENVIRONMENTAL: 2

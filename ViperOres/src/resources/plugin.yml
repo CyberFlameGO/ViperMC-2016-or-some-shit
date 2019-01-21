@@ -1,0 +1,6 @@
+name: ViperOres
+version: 1.0
+main: com.cloth.viperores.ViperOres
+commands:
+  ore:
+    description: Ore multiplier.

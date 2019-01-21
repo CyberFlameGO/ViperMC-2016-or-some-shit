@@ -1,0 +1,10 @@
+name: ViperKits
+version: 1.0
+main: com.cloth.viperkits.ViperKits
+commands:
+  kit:
+    description: Opens kit GUI.
+  savekit:
+    description: Saves a kit.
+  givekit:
+    description: Gives a player a kit.

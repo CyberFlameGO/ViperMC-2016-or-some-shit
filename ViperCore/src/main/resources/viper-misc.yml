@@ -1,0 +1,11 @@
+
+scoreboard:
+  deco-line: '&7&m-----------------'
+
+sotw-defaultTime: 3600 # in second, 3600 = 1h
+date-format: 'MM/dd/yy HH:mm'
+
+Crowbar:
+  name: '&9Crowbar'
+  DISABLE-WORLD: '&cCrowbars can only be used in overworld and is disabled in %world%'
+  REGION: '&cYou cannont use this crowbar here.'

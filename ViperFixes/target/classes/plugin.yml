@@ -1,0 +1,9 @@
+name: Fixes
+version: 1.0
+main: com.vipermc.fixes.Fixes
+commands:
+ tpnearhere:
+ setconnectioninterval:
+ whoiscap:
+ abcsetonlineplayers:
+ clist:

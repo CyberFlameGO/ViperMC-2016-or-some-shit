@@ -1,0 +1,10 @@
+message:
+  already-reclaimed: "You have already reclaimed"
+  nothing-to-reclaim: "You dont hafe anything to reclaim"
+  reclaimed: "You have reclaiemd %rank%"
+donor:
+    priority: 1
+    permission: 'rank.donor'
+    commands:
+          - crate givekey %player% tier3 1
+          - lives add %player% 3

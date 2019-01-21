@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ViperHub">
+    <output-path>$PROJECT_DIR$/out/artifacts/ViperHub</output-path>
+    <root id="archive" name="ViperHub.jar">
+      <element id="module-output" name="ViperHub" />
+      <element id="file-copy" path="$PROJECT_DIR$/resources/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/pom.xml" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,22 @@
+#Supported Variable for context
+#%enderpearl_time%
+#%spawntag_time%
+#%pvp_timer%
+#If subside koth is installed, it will also support %kothtime% and %kothname%
+
+Title: "&eHCTeams"
+always-display: false
+drtshock-relation-colors: true
+context:
+  - "&e&lEnderPearl: %enderpearl_time%"
+  - "&e&lSpawnTag: %spawntag_time%"
+  - "&e&lPvPTimer: %pvp_timer%"
+ 
+formatter:
+  ender-pearl:
+    use-decimals: false
+  spawn-tag:
+    use-decimals: false
+  pvp-timer:
+    use-minute-seperator: false
+    append-zero-for-minute: false

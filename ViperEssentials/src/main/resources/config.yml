@@ -1,0 +1,88 @@
+text-cmd:
+  website:
+  - '&f&m------------------------------------------'
+  - ''
+  - '&7(&aViper&7) &7You can visit our website at &awww.vipermc.net&7.'
+  - ''
+  - '&f&m------------------------------------------'
+  store:
+  - '&f&m------------------------------------------'
+  - ''
+  - '&7(&aViper&7) &7You can visit our store at &astore.vipermc.net&7.'
+  - ''
+  - '&f&m------------------------------------------'
+  teamspeak:
+  - '&f&m------------------------------------------'
+  - ''
+  - '&7(&aViper&7) &7You can connect to our teamspeak at &ats.vipermc.net&7.'
+  - ''
+  - '&f&m------------------------------------------'
+  ts:
+  - '&f&m------------------------------------------'
+  - ''
+  - '&7(&aViper&7) &7You can connect to our teamspeak at &ats.vipermc.net&7.'
+  - ''
+  - '&f&m------------------------------------------'
+  mapkit:
+  - '&f&m------------------------------------------'
+  - ''
+  - '&7(&aViper&7) &7Our map kit is currently &aNo Enchants&7.'
+  - ''
+  - '&f&m------------------------------------------'
+  viewkit:
+  - '&f&m------------------------------------------'
+  - ''
+  - '&7(&aViper&7) &7Our map kit is currently &aNo Enchants&7.'
+  - ''
+  - '&f&m------------------------------------------'
+  coords:
+  - '&f&m------------------------------------------'
+  - "&8\xc2\xbb &aMain Spawn &7- &f0, 0"
+  - '&2&lKoTHs'
+  - "&8\xc2\xbb &aPillar &7- &f500, 500"
+  - "&8\xc2\xbb &aDome &7- &f500, -500"
+  - "&8\xc2\xbb &aFantasy &7- &f-500, -500"
+  - "&8\xc2\xbb &aForest &7- &f-500, 500"
+  - "&8\xc2\xbb &aEnd &7- &f-10, -87"
+  - '&2&lOther'
+  - "&8\xc2\xbb &aGlowstone Mtn &7- &f420, 362"
+  - "&8\xc2\xbb &aEnd Exit &7- &f0, 400 (south road)"
+  - "&8\xc2\xbb &aEnd Portals &7- &f1500, 1500 (all quads)"
+  - "&8\xc2\xbb &dOre Cave &7- &f750, 750"
+  - '&f&m------------------------------------------'
+chat-currently-slowed: "Chat is currently slowed down. You can talk in %time%"
+chat-currently-muted: "Chat is currently muted."
+chat-muted: "Chat has been muted by %who%"
+chat-unmuted: "Chat has been unmuted by %who%"
+chat-slowed: "Chat has been muted by %who%"
+chat-unslowed: "Chat has been unmuted by %who%"
+chat-cleared: "Chat has been cleared by %who%"
+global-chat-disabled: "You have disabled global chat"
+global-chat-enabled: "You have enabled global chat"
+feeded: "You have been fed"
+near-prefix: "Player(s) nearby: "
+near-nobody: "No players are near you"
+ignored-player: "Ignored %who%"
+unignored-player: "Unignored %who%"
+ignore-list-prefix: "You have following players ignored: "
+first-join-message: "%who% has joined for the first time!!!!!!! as %count% member"
+reply-no-message: "&6&lVIPER &8 &7You did not supply a message!"
+reply-no-user: "&6&lVIPER &8 &7You did not supply a username!"
+seen-previous-online: "&6&lVIPER &8 &e%name% &7has been offline for &e%duration%"
+seen-current-online: "&6&lVIPER &8&e%name% &7has been online for &e%duration%"
+seen-never-online: "&6&lVIPER &8&e%name% &7has never been online"
+target-message-disabled: "&6&lVIPER &8&7Player has messaged toggled off."
+nickname-gui-title: "Choose a color"
+nickname-changed: "&7(&aViper&7) &fYour nickname color has been set!"
+fix-hand-cooldown: 31
+fix-all-cooldown: 1500
+venom-message:
+- ''
+- '&f&m--------------------------------------'
+- ''
+- '&7Online &5&l&oVenom &7rank members &7//'
+- '%names%'
+- ''
+- '&f&m--------------------------------------'
+- ''
+ 

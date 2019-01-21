@@ -1,0 +1,25 @@
+pvp-timer: 120
+disallow-end-teleport: true
+unpickupable:
+  - DIAMOND
+  - DIAMOND_CHESTPLATE
+  - DIAMOND_LEGGINGS
+  - DIAMOND_HELMET
+  - DIAMOND_BOOTS
+  - DIAMOND_SWORD
+  - GOLDEN_APPLE
+  - POTION
+  - GLASS_BOTTLE
+  - REDSTONE_BLOCK
+  - DIAMOND_BLOCK
+  - LAPIS_BLOCK
+  - COAL_BLOCK
+  - GOLD_BLOCK
+  - IRON_BLOCK
+disable-commands:
+  - "/f home"
+  - "/factions home"
+message-pvp:
+ - "&c/pvp enable - Enabled your PvP Timer"
+ - "&c/pvp time - Displays your PvP Timer"
+ - "&c/pvp give <name>"

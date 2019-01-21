@@ -1,0 +1,59 @@
+
+CONQUEST:
+  Cap-Time: 30
+  Required-Points: 150
+  Loot-Number: 3
+  Penality: # should a faction lose point when a member died
+    enabled: true
+    points: 1
+  Loot:
+    Key:
+      amount: 1 # how much key the winner of the Conquest get
+      name: '&cConquest Key'
+      lore:
+      - ''
+      - '&bGet your rewards at Spawn!'
+Messages:
+  NO-PERM: '&cYou do not have the permission to do that !'
+  Date-Format: 'dd/MM/yyyy HH:mm:ss'
+  USAGE:
+    STAFF: # players with the permission "Conquest.Admin" are able to this
+    - '&6/conquest create <name> &8- &7Create a Conquest'
+    - '&6/conquest delete <name> &8- &7Delete a Conquest'
+    - '&6/conquest area <name> <red/green/blue/yellow> &8- &7Define a Conquest area'
+    - '&6/conquest start <name> &8- &7Start a Conquest'
+    - '&6/conquest stop &8 &7Stop a Conquest'
+    - '&6/conquest list &8- &7Conquest list'
+    - '&6/conquest loot &8- &7Open Conquest loot'
+    - '&6/conquest editloot &8- &7Edit Conquest loot'
+    - '&6/conquest wand &8- &7Get the Conquest wand'
+    - '&6/conquest chest create &8- &eSet the Location of a Chest loot'
+    - '&6/conquest chest remove &8- &eRemove a Chest Loot'
+    - '&6/conquest chest key &8- &eGet a reward key'
+    PLAYER: 
+    - '&6/conquest loot &8- &7Open Conquest loot'
+  ALREADY-EXIST: '&eThis Conquest already exist!'
+  DOESNT-EXIST: '&cThis Conquest doesn''t exist!'
+  CONQUEST-RUNNING: '&cYou can''t do that while this Conquest is running! &ePlease type /conquest stop'
+  NONE-RUNNING-CONQUEST: '&cThere is not a running Conquest!'
+  NONE-CONQUEST: '&cThere is not a avalaible Conquest !'
+  CREATED: '&eYou succefully created the Conquest &c%NAME%&e! &bPlease, now set the 4 area using the command &c/conquest area <name> <red/green/blue/yellow>'
+  DELETED: '&eYou succefully deleted the Conquest &c%NAME%&e!'
+  NO-SELECTION: '&ePlease select a area using the wand !'
+  INVALID-AREA: '&c&lInvalid Area! &eValid area type: RED, YELLOW, BLUE, GREEN'
+  INCOMPLET-CONQUEST: '&cThis Conquest is not complete!'
+  AREA-UPTADED: '&eArea Updated!'
+  TELEPORTATION: '&aYou have been teleported to the Conquest %NAME%'
+  CONQUEST-READY: '&eThis Conquest is ready! &nYou can start it with the command &c/conquest start %NAME%'
+  CONQUEST-STARTED: '&eThe Conquest &6%NAME% &estarted with &a&l%POINTS% &epoints&e!'
+  CONQUEST-STOPPED: '&eThe Conquest &6%NAME% &ehas been stopped!'
+  CONQUEST-CAPPING: '&c&lConquest &eｻ &eThe Faction &c%FACTION% &ejust capped the area %AREA% &ewith &a&l%POINTS% &epoints!'
+  CONQUEST-WIN: '&e&lThe Faction &c%FACTION% &e&lsuccefully won the &c&lConquest &e&lwith &a&l%POINTS% &e&lpoints!'
+  PENALITY: '&eYour faction lost &c%POINTS% &eConquest points !'
+  ALREADY-CHESTLOOT: '&cThis chest is already a Chest Loot!'
+  NOT-A-CHEST: '&cChest Loot can only be: Chest, Trapped Chest or EnderChest'
+  NOT-A-CHESTLOOT: '&cThis chest is not a Chest Loot!'
+  LOOT: '&eThe player &c%PLAYER% &eopenned a &c&lConquest &eCrate and won&7: '
+  CHEST-LOOT-CREATED: '&aChest loot &asuccefully created!'
+  CHEST-LOOT-REMOVED: '&aChest loot&asuccefully deleted!'
+  CHEST-LOOT-NO-KEY: '&eYou need a Conquest key to open this Chest Loot!'

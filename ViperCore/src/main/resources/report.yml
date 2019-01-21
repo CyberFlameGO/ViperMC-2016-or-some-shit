@@ -1,0 +1,26 @@
+
+MAX-REPORT-PER-FACTION: 3
+
+Messages:
+  NO-PERM: '&cYou do not have the permission to use this command'
+  SELF-REPORT: '&cYou can''t report yourself.'
+  REPORT-USAGE: '&e/report &6<player>'
+  REPORT-SEND: '&aYour report has been succefully send, every online staff member has been notified.'
+  REPORT-SEND-STAFF: '&eThe player %PLAYER% &ehas been reported for &6%REASON% &7(Click to teleport)'
+  REPORT-COOLDOWN: '&cYou are still in cooldown for &c&l%TIME%s&c.'
+  MAX-REPORT-FACTION: '&cYour faction has already reported this player &e%REPORT_COUNT% time&c.'
+  STATS-CMD:
+    - '&7&m-----------------------------------------------------'
+    - '&9ｻ &6&l%FACTION%''s &estats&7:'
+    - '&bDiamond ore&7: &c%DIAMOND%'
+    - '&fIron ore&7: &c%IRON%'
+    - '&eGold ore&7: &c%GOLD%'
+    - '&aEmerald ore&7: &c%EMERALD%'
+    - '&8Coal ore&7: &c%COAL%'
+    - '&7&m-----------------------------------------------------'
+  HELP-CMD:
+    - '&7&m-----------------------------------------------------'
+    - ''
+    - '&9ｻ &eUse the command &6/report &6<player> &efor report another &6Player'
+    - ''
+    - '&7&m-----------------------------------------------------'

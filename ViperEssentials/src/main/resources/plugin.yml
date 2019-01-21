@@ -1,0 +1,128 @@
+name: ViperEssentials
+version: 1.0
+main: com.viperhcf.minssentials.Minssentials
+commands:
+  rename:
+    permission: minssentials.rename
+  sudo:
+    permission: minssentials.sudo
+  feed:
+    permission: minssentials.feed
+  clearchat:
+    permission: minssentials.clearchat
+  clearentity:
+    permission: minssentials.clearentity
+  fly:
+    permission: minssentials.fly
+  seen:
+    permission: minssentials.seen
+  gmc:
+    permission: minssentials.gmc
+  gms:
+    permission: minssentials.gms
+  spawner:
+    permission: minssentials.spawner
+  give:
+    permission: minssentials.give
+  tp:
+    permission: minssentials.tp
+  createtag:
+    description: Create a tag.
+  tags:
+    description: Opens the tag GUI.
+  fix:
+    description: Fix an item.
+  tphere:
+    permission: minssentials.tphere
+  tppos:
+    permission: minssentials.tppos
+  workbench:
+    aliases: [craft]
+    permission: minssentials.workbench
+  nick:
+    description: Opens the nick GUI.
+  god:
+    permission: minssentials.god
+  near:
+    permission: minssentials.near
+  spawn:
+    permission: minssentials.spawn
+  setspawn:
+    permission: minssentials.setspawn
+  invsee:
+    permission: minssentials.invsee
+  mutechat:
+    permission: minssentials.mutechat
+  slowchat:
+    permission: minssentials.slowchat
+  broadcast:
+    permission: minssentials.broadcast
+  playtime:
+    permission: minssentials.playtime
+  tgc:
+    permission: minssentials.togglechat
+permissions:
+  minssentials.togglechat:
+    default: true
+  minssentials.sudo:
+    default: op
+  minssentials.sudo:
+    default: op
+  minssentials.feed:
+    default: op
+  minssentials.fulljoin:
+    default: op
+  minssentials.fly:
+    default: op
+  minssentials.gmc:
+    default: op
+  minssentials.gms:
+    default: op
+  minssentials.give:
+    default: op
+  minssentials.spawner:
+    default: op
+  minssentials.tp:
+    default: op
+  minssentials.tphere:
+    default: op
+  minssentials.tppos:
+    default: op
+  minssentials.workbench:
+    default: op
+  minssentials.god:
+    default: op
+  minssentials.near:
+    default: op
+  minssentials.spawn:
+    default: op
+  minssentials.setspawn:
+    default: op
+  minssentials.mutechat:
+    default: op
+  minssentials.slowchat:
+    default: op
+  minssentials.mutechat.bypass:
+    default: op
+  minssentials.slowchat.bypass:
+    default: op
+  minssentials.invsee:
+    default: op
+  minssentials.chat.color:
+    default: op
+  minssentials.chat.format:
+    default: op
+  minssentials.chat.link:
+    default: op
+  minssentials.broadcast:
+    default: op
+  minssentials.clearentity:
+    default: op
+  minssentials.clearchat:
+    default: op
+  minssentials.seen:
+    default: op
+  minssentials.playtime:
+    default: op  
+  minssentials.rename:
+    default: op        
